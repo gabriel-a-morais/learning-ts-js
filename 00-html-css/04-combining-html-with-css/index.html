@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Not Netflix</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            background-image: url(https://assets.nflxext.com/ffe/siteui/vlv3/6a77b075-d304-4342-a055-c9e435c98b6f/web/BR-pt-20260406-TRIFECTA-perspective_a601439c-bd2f-482b-b9eb-6064069312d8_large.jpg);
+        }
+
+        #header div {
+            display: flex;
+            background-color: red;
+            justify-content: space-between;
+        }
+        #header .heading {
+            padding: 15px;
+            font-size: 20px;
+        }
+        #header h1 {
+            text-transform: uppercase;
+        }
+        #header a {
+            color: white;
+            text-decoration: none;
+            font-family: sans-serif;
+        }
+        .login-form {
+            display: flex;
+            justify-content: center;
+            margin-top: 200px;
+        }
+        .separator {
+            width: 1px;
+            margin: 0 10px;
+        }
+        
+    </style>
+</head>
+<body>
+    <header id="header">
+        <div>
+            <h1 class="heading">
+                <a href="#">Not Netflix</a>
+            </h1>
+            <h2 class="heading">
+                <a href="#">Login</a>
+            </h2>
+        </div>
+    </header>
+    <section>
+        <form class="login-form" action="">
+            <input type="text" placeholder="Email address">
+            <div class="separator"></div>
+            <input type="submit" value="Get Started">
+        </form>
+    </section>
+</body>
+</html>
