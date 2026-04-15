@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Tables</title>
+    <style>
+        body {
+            font-family: sans-serif;
+        }
+        table {
+            border-collapse: collapse;
+            width: 1000px;
+        }
+        table td, table th {
+            border: 1px solid #bbbbbb;
+            padding: 5px;
+            text-align: left;
+        }
+        table caption {
+            caption-side: bottom;
+            font-size: 14px;
+            margin: 5px 0;
+        }
+        tfoot td, table th {
+            background-color: #dddddd;
+        }
+        .responsive-table {
+            overflow-x: auto;
+        }
+    </style>
+</head>
+<body>
+    <h1>HTML Tables</h1>
+    <div class="responsive-table">
+        <table>
+            <caption>Table Caption</caption>
+            <thead>
+                <tr>
+                    <th>Title 1</th>
+                    <th>Title 2</th>
+                    <th>Title 3</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Cell 1</td>
+                    <td>Cell 2</td>
+                    <td rowspan="3">Cell 3</td>
+                </tr>
+                <tr>
+                    <td colspan="2">Cells 1 and 2</td>
+                </tr>
+                <tr>
+                    <td>Cell 1</td>
+                    <td>Cell 2</td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <tr>
+                    <td>Footer 1</td>
+                    <td>Footer 2</td>
+                    <td>Footer 3</td>
+                </tr>
+            </tfoot>
+        </table>
+    </div>
+</body>
+</html>
