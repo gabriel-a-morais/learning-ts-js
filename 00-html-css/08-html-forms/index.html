@@ -9,21 +9,38 @@
         body {
             font-family: sans-serif;
         }
+        label {
+            cursor: pointer;
+        }
     </style>
 </head>
 
 <body>
     <section>
-        <form action="#" method="get" target="_blank" autocomplete="off">
-        <h1>HTML Form</h1>
-        <p>This is a simple form.</p>
-        <fieldset>
-            <legend>Description</legend>
+        <form action="#" method="get" target="_self" autocomplete="off">
+            <h1>HTML Form</h1>
             <p>
-                <input type="text">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" placeholder="Enter your name">
             </p>
-        </fieldset>
-    </form>
+            <p>
+                <label for="dev">Are you a developer?</label>
+                <input type="checkbox" id="dev" name="dev" value="yes" checked>
+            </p>
+            <p>
+                Gender:<br>
+                <label for="feminine">Feminine</label>
+                <input type="radio" id="feminine" name="gender" value="female">
+                <label for="masculine">Masculine</label>
+                <input type="radio" id="masculine" name="gender" value="male">
+                <label for="other">Other</label>
+                <input type="radio" id="other" name="gender" value="other">
+            </p>
+            <p>
+                <button type="submit">Submit</button>
+                <button type="reset">Reset</button>
+            </p>
+        </form>
     </section>
 </body>
 
