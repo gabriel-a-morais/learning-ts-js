@@ -1,0 +1,13 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.color-red {
+    color: #ff0000;
+}
+
+.main-content h2.heading {
+    font-style: italic;
+}
+
