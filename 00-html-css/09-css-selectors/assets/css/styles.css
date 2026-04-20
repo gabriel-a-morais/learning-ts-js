@@ -11,3 +11,6 @@
     font-style: italic;
 }
 
+[my-attribute="value"] {
+    color: #0000ff;
+}
