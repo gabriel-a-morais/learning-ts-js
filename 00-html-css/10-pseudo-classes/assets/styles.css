@@ -1,0 +1,58 @@
+.heading {
+    transition: all 300ms ease-in-out;
+}
+
+.heading:hover {
+    background-color: #ff0000;
+    color: #ffffff;
+}
+
+a {
+    color: #ff8800;
+}
+
+a:link {
+    color: #ff00ea;
+}
+
+a:visited {
+    color: #ff5100;
+}
+
+a:hover {
+    background-color: #000099;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+a:active {
+    background-color: #00aaff;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.form:focus {
+    box-shadow: 0 0 0 3px #ff000080;
+}
+
+button:active {
+    background-color: #b700ff;
+    color: #ffffff;
+}
+
+.checkbox:not(:checked) + p {
+    color: #ffffff;
+    background-color: #000000;
+}
+
+ul li:nth-child(even) {
+    background-color: #b1afaf;
+}
+
+ul li:nth-child(odd) {
+    background-color: #969494;
+}
+
+ul li:nth-child(3n+2) {
+    color: #ffffff;
+}
