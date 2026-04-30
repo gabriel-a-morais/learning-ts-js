@@ -1,0 +1,33 @@
+ul li::after {
+    content: " - ";
+    background-color: #000000;
+    color: #ffffff;
+}
+
+ul li::before {
+    content: " - ";
+    background-color: #000000;
+    color: #ffffff;
+}
+
+p::first-letter {
+    font-size: 50px;
+    display: block;
+    float: left;
+    margin: 0 5px 5px 0;
+}
+
+p::first-line {
+    font-weight: bold;
+    color: #ff0000;
+}
+ 
+p::selection {
+    background-color: #0000ff;
+    color: #ffffff;
+}
+
+input::placeholder {
+    color: #ff0000;
+    font-style: italic;
+}
