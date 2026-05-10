@@ -1,0 +1,34 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 61.5%;
+    scroll-behavior: smooth;
+}
+
+.parent {
+    width: 100vw;
+    height: 100vh;
+}
+
+h1 {
+    font-size: 2em;
+}
+
+p {
+    font-size: 2vmax;
+}
+
+.color-one {
+    background-color: #fbff00;
+}
+
+.color-two {
+    background-color: #00ffc8;
+}
+
+.color-three {
+    background-color: #8400ff;
+}
